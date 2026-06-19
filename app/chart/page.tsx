@@ -289,7 +289,7 @@ export default function ChartPage() {
 
             {/* 左栏：命盘主舞台 */}
             <div className="chart-workspace-left">
-              <ChartBoard
+              <(ChartBoard as any)
                 chart={chart}
                 view={view}
                 liunianYear={liunianYear}
