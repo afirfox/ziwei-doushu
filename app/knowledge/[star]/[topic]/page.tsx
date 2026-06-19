@@ -311,3 +311,5 @@ function Section({ title, children, gradient, minimal }: { title: string; childr
     </section>
   );
 }
+
+export async function generateStaticParams() { return [{ star: 'ziwei', topic: 'general' }]; }
