@@ -465,3 +465,4 @@ ${selectedSiHua.starName}化${selectedSiHua.siHua}落在【${palaceName}】，�
     </div>
   );
 }
+export type FocusState = any;
