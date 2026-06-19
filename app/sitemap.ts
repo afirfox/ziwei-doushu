@@ -53,3 +53,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPages, ...libraryPages, ...knowledgePages];
 }
+
+export const dynamic = 'force-static';
