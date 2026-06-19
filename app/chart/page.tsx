@@ -338,7 +338,7 @@ export default function ChartPage() {
                 return famous ? <FamousPersonCard person={famous} /> : null;
               })()}
               <PatternsCard chart={chart} />
-              <InsightPanel
+              <AnyInsightPanel
                 chart={chart}
                 view={view}
                 liunianYear={liunianYear}
