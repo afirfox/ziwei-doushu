@@ -5,6 +5,7 @@ import BirthForm, { type BirthFormState } from '@/components/BirthForm';
 import TopBar, { type TimeView } from '@/components/TopBar';
 // @ts-ignore
 import ChartBoard from '@/components/ChartBoard';
+const AnyChartBoard = ChartBoard as any;
 import InsightPanel, { type FocusState } from '@/components/InsightPanel';
 import PatternsCard from '@/components/PatternsCard';
 import FamousPersonCard from '@/components/FamousPersonCard';
@@ -289,7 +290,7 @@ export default function ChartPage() {
 
             {/* 左栏：命盘主舞台 */}
             <div className="chart-workspace-left">
-              <(ChartBoard as any)
+              <AnyChartBoard
                 chart={chart}
                 view={view}
                 liunianYear={liunianYear}
