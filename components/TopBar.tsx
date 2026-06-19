@@ -1,1 +1,1 @@
-import React from 'react'; const TopBar = () => { return null; }; export const TimeView = () => { return null; }; export type TimeView = 'mingpan' | 'liunian' | 'liuyue' | 'liuri' | 'liushi' | string; export default TopBar;
+import React from 'react'; const TopBar = (props: any) => { return null; }; export const TimeView = () => { return null; }; export type TimeView = 'mingpan' | 'liunian' | 'liuyue' | 'liuri' | 'liushi' | string; export default TopBar;
