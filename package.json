@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf .next/cache",
+    "build": "DISABLE_OPENNEXT_CLOUDFLARE_ALIASES=1 next build && rm -rf .next/cache",
     "postbuild": "node scripts/indexnow-ping.mjs",
     "start": "next start",
     "build:cf": "npx @cloudflare/next-on-pages",
