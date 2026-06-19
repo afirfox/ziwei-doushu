@@ -283,3 +283,4 @@ export default function ChartBoard({ chart, onStarSelect, onPalaceSelect, onSiHu
     </div>
   );
 }
+declare module './ChartBoard' { export interface ChartBoardProps { [key: string]: any; } }
