@@ -1,7 +1,6 @@
-// @ts-ignore
+'use client';
 import InsightPanel from "@/components/InsightPanel";
 const AnyInsightPanel = InsightPanel as any;
-'use client';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import BirthForm, { type BirthFormState } from '@/components/BirthForm';
