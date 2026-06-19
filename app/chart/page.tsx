@@ -1,3 +1,6 @@
+// @ts-ignore
+import InsightPanel from "@/components/InsightPanel";
+const AnyInsightPanel = InsightPanel as any;
 'use client';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
