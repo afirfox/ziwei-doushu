@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import BirthForm, { type BirthFormState } from '@/components/BirthForm';
-import TopBar, { type TimeView } from '@/components/chart/TopBar';
+import TopBar, { type TimeView } from '@/components/TopBar';
 import ChartBoard from '@/components/ChartBoard';
 import InsightPanel, { type FocusState } from '@/components/InsightPanel';
 import PatternsCard from '@/components/PatternsCard';
